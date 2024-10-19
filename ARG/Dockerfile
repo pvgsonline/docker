@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux: ${version:-9}
+FROM almalinux:${version:-9}
 ARG course="devops" \
     duration="120 hrs"
 ENV duration=$duration
